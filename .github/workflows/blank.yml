@@ -3,7 +3,7 @@
 name: My_JOB_NAME
 
 env:
-  Perfecto_API_Key: ${{ PERFECTO_API_SECRET }}
+  Perfecto_API_Key: ${{ secrets.PERFECTO_API_SECRET }}
 
 # Controls when the workflow will run
 on:
